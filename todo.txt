@@ -1,0 +1,4 @@
+[ ] Update links
+[ ] Note that this an update to 2022 PhD talk.
+[ ] Joke about how this talk seems to come out when I have a new child.
+[ ] Joke about what's changed since then (language models + RAD-embeddings)
