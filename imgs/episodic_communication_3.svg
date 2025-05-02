@@ -2,13 +2,13 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="524.53143mm"
-   height="156.95686mm"
-   viewBox="0 0 524.53143 156.95686"
+   width="504.53146mm"
+   height="161.65071mm"
+   viewBox="0 0 504.53146 161.65071"
    version="1.1"
    id="svg8"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
-   sodipodi:docname="episodic_communication.svg"
+   sodipodi:docname="episodic_communication_3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -1516,7 +1516,7 @@ rect { stroke: black;       stroke-width: 1; }
      inkscape:cx="1041.3694"
      inkscape:cy="219.47632"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1"
      showgrid="false"
      inkscape:window-width="1536"
      inkscape:window-height="792"
@@ -1533,7 +1533,7 @@ rect { stroke: black;       stroke-width: 1; }
      inkscape:showpageshadow="2"
      inkscape:deskcolor="#d1d1d1">
     <sodipodi:guide
-       position="378.13164,75.824363"
+       position="368.13164,69.130516"
        orientation="0,1"
        id="guide889"
        inkscape:locked="false" />
@@ -1554,12 +1554,12 @@ rect { stroke: black;       stroke-width: 1; }
      id="layer2"
      inkscape:label="Background"
      style="opacity:1"
-     transform="translate(11.678957,-0.76698706)" />
+     transform="translate(1.6789541,5.9268597)" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(160.41733,-1.9329957)">
+     transform="translate(150.41733,4.7608511)">
     <g
        id="g1264"
        transform="matrix(0.18515016,0,0,0.18515016,-73.810979,84.796019)" />
@@ -1697,14 +1697,22 @@ rect { stroke: black;       stroke-width: 1; }
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 62.922162,83.065497 101.93122,119.2066"
+       d="M 58.083014,75.806775 101.93122,119.2066"
        id="path54005"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 141.92215,83.065497 102.9131,119.20659"
+       d="M 91.715989,74.596988 102.9131,119.20659"
        id="path54005-6"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 131.23594,52.832788 114.00306,118.00876 M 152.50694,59.669212 114.7077,118.19136"
+       id="path54005-6-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1330657)"
        d="m -16.812799,120.04706 51.58661,0.51725"
@@ -1796,7 +1804,7 @@ rect { stroke: black;       stroke-width: 1; }
        transform="translate(0,26.055843)" />
     <g
        id="g53963"
-       transform="matrix(0.26458333,0,0,0.26458333,70.107289,3.0654957)">
+       transform="matrix(0.26458333,0,0,0.26458333,32.603891,-5.6283517)">
       <rect
          id="rect53760"
          y="3.7795274"
@@ -2553,27 +2561,62 @@ rect { stroke: black;       stroke-width: 1; }
    id="tspan58991">wet</tspan>.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:8.34963px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.10583333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-size:8.34963px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-98.583557"
        y="90.32103"
        id="text3927-3"
        transform="rotate(10.339262)"><tspan
          sodipodi:role="line"
-         style="fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.10583333;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="-98.583557"
          y="90.32103"
          id="tspan3929-7">Recharge.</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:7.25855px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e50000;fill-opacity:1;stroke-width:0.10583333;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       style="font-size:7.25855px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e50000;fill-opacity:1;stroke:#ffffff;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-101.76952"
        y="45.645691"
        id="text3927-3-5"
        transform="rotate(-9.1383654)"><tspan
          sodipodi:role="line"
-         style="fill:#e50000;fill-opacity:1;stroke-width:0.10583333;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:#e50000;fill-opacity:1;stroke:#ffffff;stroke-width:0.105833;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          x="-101.76952"
          y="45.645691"
          id="tspan3929-7-3">Avoid lava.</tspan></text>
+    <g
+       id="g1"
+       transform="translate(8.4685092,-16.937018)">
+      <ellipse
+         style="opacity:0.690525;fill:none;stroke:#fefefe;stroke-width:1.465;stroke-dasharray:none;stroke-opacity:1"
+         id="path1"
+         ry="22.98595"
+         rx="46.274357"
+         cy="49.074673"
+         cx="158.38081" />
+      <text
+         xml:space="preserve"
+         style="font-size:14.8626px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.188386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="160.31761"
+         y="53.490105"
+         id="text3927-3-3"
+         transform="matrix(0.98713349,0.03503502,-0.02648117,1.0120943,0,0)"><tspan
+           sodipodi:role="line"
+           style="fill:#dbe500;fill-opacity:1;stroke:#ffffff;stroke-width:0.188386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="160.31761"
+           y="53.490105"
+           id="tspan3929-7-6">Recharge.</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:12.9205px;line-height:1.25;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;word-spacing:0px;text-anchor:middle;fill:#e50000;fill-opacity:1;stroke:#ffffff;stroke-width:0.188386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="163.12306"
+         y="42.35239"
+         id="text3927-3-5-7"
+         transform="matrix(0.98755068,0.00590729,-0.0144365,1.0125199,0,0)"><tspan
+           sodipodi:role="line"
+           style="fill:#e50000;fill-opacity:1;stroke:#ffffff;stroke-width:0.188386;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           x="163.12306"
+           y="42.35239"
+           id="tspan3929-7-3-5">Avoid lava.</tspan></text>
+    </g>
   </g>
 </svg>

@@ -1,4 +1,12 @@
-#title h1 {
+.reveal .slides section .with_fade .fragment.visible {
+  opacity: 0.3;
+}
+
+.reveal .slides section .with_fade .fragment.visible.current-fragment {
+  opacity: 1;
+}
+
+.reveal .title h1 {
     font-size: 2em;
 }
 

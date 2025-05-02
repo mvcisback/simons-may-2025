@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-        <title>Specifications from Demonstrations</title>
+        <title>Learning and teaching automata</title>
 
         <link rel="stylesheet" href="dist/reset.css">
         <link rel="stylesheet" href="dist/reveal.css">
@@ -17,11 +17,19 @@
     <body>
         <div class="reveal">
             <div class="slides">
-                <section id="title" data-auto-animate>
-                    <h1>Learning and Teaching Automata</h1>
-                    </br>via Demonstrations and Natural Language
+                <section class="title" id="title" data-auto-animate>
+                    <h1 style="color: #969696">
+                        <span style="color: #ff8b8b">Learning</span>
+                        and
+                        <span style="color: #ff8b8b">Teaching</span> 
+                        <span style="color: white">Automata</span>
+                    </br>via
+                    <span style="color: #afafff">Demonstrations</span>
+                    and
+                    <span style="color: #afafff">Natural Language</span>
+                    </h1>
                     <figure style="opacity: 1" data-id="1">
-                        <img data-id="2" style="height: 10em; padding: 1em" src='imgs/episodic_communication.svg'>
+                        <img data-id="2" style="height: 10em; padding: 1em" src='imgs/episodic_communication_3.svg'>
                     </figure>
 
                     <h3 style="font-size: 0.8em; opacity: 0.95">Marcell Vazquez-Chanlatte</h3>
@@ -29,248 +37,52 @@
                     <p href="https://mjvc.me/simons-may-2025"><a>mjvc.me/simons-may-2025</a></p>
 
                 </section>
-               <section class="motivation" data-auto-animate>
-                   <div style="display: flex; flex-direction: column; justify-content: center; height: 100vh;">
-                       <p style="padding: 1em; font-size: 1.3em; border: 1px solid white;">What <strong style="color: green">goals</strong> & <strong style="color: green">assumptions</strong> are implicit in the way we <strong style="color: green">act</strong>?</p>
-
-                    <p class="fragment">Three types of motivating applications.</p>
-                    </div>
-                </section>
- 
-               <section class="motivation" >
-                   <h1>Share road with many actors</h1>
-                  <figure style="opacity: 1">
-                       <img data-id="3" style="height: 13em; padding: 1em" src='imgs/goal_inference_ped.svg'/>
-                       <figcaption style="font-size: 0.5em; opacity: 0.7;">
-                           Illustration: Bryan Christie Design
-                       </figcaption>
- 
-                   </figure>
-                    <footer style="border: 1px solid grey; margin-top: 1em; padding-left: 2em;padding-bottom: 1em; padding-right: 1em">
-                    <p >Three types of motivating applications.</p>
-                   <ol style="font-size: 1.2em">
-                       <li>Inference via demonstrations </li>
-                       <li style="opacity: 0">Pedagogic example generation for user on-boarding </li>
-                       <li  style="opacity: 0">Human AI Collaboration </li>
-                   </ol>
-                    </footer>
- 
-               </section>
-               <section class="motivation" data-auto-animate>
-
-                   <h1>Detecting Mode Confusion + Unused Features</h1>
-
-                  <figure style="opacity: 1">
-                       <img data-id="3" style="height: 13em; padding: 1em" src='imgs/cruise_control.png'/>
-
-                       <img data-id="3" style="height: 13em; padding: 1em" src='imgs/nav.webp'/>
-                       <figcaption style="font-size: 0.5em; opacity: 0.7;">
-    Saifan, et al. "Using formal methods for test case generation according to transition-based coverage criteria." 2015.
-                       </figcaption>
-                   </figure>
-
-                    <footer style="border: 1px solid grey; margin-top: 1em; padding-left: 2em;padding-bottom: 1em; padding-right: 1em">
-                    <p >Three types of motivating applications.</p>
-                   <ol style="font-size: 1.2em">
-                       <li style="opacity: 1">Inference via demonstrations </li>
-                       <li style="opacity: 0">Pedagogic example generation for user on-boarding </li>
-                       <li  style="opacity: 0">Human AI Collaboration </li>
-                   </ol>
-                    </footer> 
-                   
-               </section>
-
-               <section class="motivation" data-auto-animate>
-                   <h1>Nobody reads the manual...</h1>
-                  <figure style="opacity: 1">
-                       <img data-id="3" style="height: 13em; padding: 1em" src='imgs/cruise_control.png'/>
-
-                       <img data-id="3" style="height: 13em; padding: 1em" src='imgs/nav.webp'/>
-                       <figcaption style="font-size: 0.5em; opacity: 0.7;">
-    Saifan, et al. "Using formal methods for test case generation according to transition-based coverage criteria." 2015.
-                       </figcaption>
-                   </figure>
-
-                    <footer style="border: 1px solid grey; margin-top: 1em; padding-left: 2em;padding-bottom: 1em; padding-right: 1em">
-                    <p >Three types of motivating applications.</p>
-                   <ol style="font-size: 1.2em">
-                       <li style="opacity: 0.5">Inference via demonstrations </li>
-                       <li style="opacity: 1">Pedagogic example generation for user on-boarding </li>
-                       <li  style="opacity: 0">Human AI Collaboration </li>
-                   </ol>
- 
-                    </footer>
-               </section>
-
-               <section class="motivation" data-auto-animate>
-                   <h1>Specializing on the fly</h1>
-
-                   <figure style=" opacity: 1;">
-                       <img data-id="8" style="height: 13em; padding: 1em" src='imgs/overcooked.svg'/>
-
-                       <figcaption style="font-size: 0.5em; opacity: 0.7;">
-                       Overcooked cooking simulator
-                       </figcaption>
-                   </figure>
-
-                    <footer style="border: 1px solid grey; margin-top: 1em; padding-left: 2em; padding-bottom: 1em; padding-right: 1em">
-                    <p >Three types of motivating applications.</p>
-
-                   <ol style="font-size: 1.2em">
-                       <li style="opacity: 0.5">Inference via demonstrations </li>
-                       <li style="opacity: 0.5">Pedagogic example generation for user on-boarding </li>
-                       <li  style="opacity: 1">Human AI Collaboration </li>
-                   </ol>
-                    </footer>
-               </section>
-
-
-                <section data-auto-animate class="structure-of-talk">
-                    <h1>Research Stack</h1>
-
-                    <div>
-                        <div style="opacity: 0.1">
-                            <h2 data-id="3">Teaching tasks using demonstrations</h2>
-                        </div>
-
-                        <div style="opacity: 0.1">
-                            <h2 data-id="3">Learning tasks from demonstrations</h2>
-                        </div>
-                        <div style="margin: 0">
-                            <h2 data-id="2"> Maximum Entropy Planning </h2>
-
-                        </div>
-                   </div>
-                    <div style="display: flex; justify-content: space-evenly; width: 80%; flex-direction: row;">
-                        <img style="height: 10em; margin: 0;" src="imgs/applications_visible.svg"/>
-                    </div>
-
-
-                    <footer style="font-size: 0.7em; text-align: left">
-
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: yellow">
-                            "A Model Counter's Guide to Probabilistic Systems.". (preprint)
-                        </cite>
-
-                        <br>
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: orange">
-                            "Model Checking Finite-Horizon Markov
-                            Chains with Probabilistic Inference",
-                            CAV `21
-                        </cite>
-
-                        <br> 
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: #70ff70">
-                            "Maximum Causal Entropy
-                            Specification Inference from
-                            Demonstrations." CAV `20
-                        </cite>
-                        <br>
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: cyan">
-                            "Entropy Guided Control
-                            Improvisation", RSS `21
-                        </cite>
-                    </footer>
-                </section>
-
-
-
-
-                <section data-auto-animate class="structure-of-talk">
-                    <h1>Research Stack</h1>
-
-                    <div>
-                        <div style="opacity: 0.1">
-                            <h2 data-id="3">Teaching tasks using demonstrations</h2>
-                        </div>
-
-                        <div style="opacity: 1">
-                            <h2 data-id="3">Learning tasks from demonstrations</h2>
-                        </div>
-                        <div style="opacity: 0.1">
-                            <h2 data-id="2"> Maximum Entropy Planning </h2>
-                        </div>
-                   </div>
-
-                    <img style="height: 10em;" src="imgs/episodic_learning4.svg"/>
-
-                    <footer style="font-size: 0.7em; text-align: left">
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
-                            "Learning Task Specifications from
-                            Demonstrations." NeurIPS `18. 
-                        </cite>
-                        <br> 
-
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: #e5acff">
-                            "Demonstration Informed Specification Search." In submission.
-                        </cite>
-                    </footer>
-              </section>
-
-                <section data-auto-animate class="structure-of-talk">
-                    <h1>Research Stack</h1>
-
-                    <div>
-                    <div style="opacity: 1">
-                        <h2 data-id="3">Teaching tasks using demonstrations</h2>
-                    </div>
- 
-                    <div style="opacity: 0.1">
-                        <h2 data-id="3">Learning tasks from demonstrations</h2>
-                    </div>
-                    <div style="opacity: 0.1">
-                        <h2 data-id="2"> Maximum Entropy Planning </h2>
-                    </div>
-                   </div>
-
-                    <img style="height: 10em; " src="imgs/episodic_teaching.svg" />
-                    <footer style="font-size: 0.7em; text-align: left">
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
-                            "Communicating Compositional and Temporal Specifications by Demonstrations", `18
-                        </cite>
-                    </footer>
-              </section>
-
-
-                 <section>
-                    <h1>How to infer a task?</h1>
-                
-                     <img data-id="3"
-                         style="height: 15em;"
-                         src="imgs/system_design_5_2_2.svg"/>
- 
-                </section>
-
-
-                <section>
-                    <h1>Many different signals to use for inference</h1>
-                     <img data-id="3"
-                         style="height: 15em;"
-                         src="imgs/system_design_5_2.svg"/>
-                </section>
-                <section data-auto-animate>
-                    <h1>Decades of research in learning rewards from demonstrations</h1>
-                     <img data-id="3"
-                         style="height: 15em;"
-                         src="imgs/system_design_5_3.svg"/>
-                </section>
-
 
                 <section data-auto-animate>
-                    <h1>Decades of research in learning rewards from demonstrations</h1>
-                     <img data-id="3"
-                         style="height: 7em;"
-                         src="imgs/system_design_5_3.svg"/>
+                        <h1 style="font-size: 0.9em; opacity: 0.5">Key premise of talk</h1>
+                        <ol class="with_fade" style="margin: 1.5em; font-size: 2em; height: 10em;
+                                                     display: flex; flex-direction: column;
+                                                     justify-content: center;
+                                                     color: #ffffffbf;">
+                          <li style="padding: 0.2em; color" class="fragment">
+                                  <strong style="color: white">Unambigously</strong>
+                                  and formally <strong style="color: white">specifying goals</strong>
+                                  are helpful for <strong style="color: white">trustworthy AI</strong></li>
+                          <li style="padding: 0.2em; font-size: 1.5em" class="fragment">
+                                  Almost <strong style="color: #e66464">nobody</strong>
+                                  <strong style="color: #b9b9ea">writes</strong> down <strong style="color: orange">formal specifications.</strong></li>
+                        </ol>
+                </section>
 
-                   <div style="background: #3a3a3f; color: white; border: 1px solid white; padding: 1em;margin-top: 3em;">
-                       <h2>Inverse Reinforcement Learning</h2>
-                    <p style="width: 30em; text-align: left;" >
-                    Given a series of demonstrations, what reward, $r(s)$, best explains
-                    the behavior? <cite style="font-size: 0.8em; opacity: 0.7">(Abbeel and Ng 2004)</cite>
-                    </p>
-                   </div>
- 
-               </section>
+                <section data-auto-animate>
+                  <h1>Agenda</h1>
+                  <ol class="with_fade" style="font-size: 1.6em">
+                      <li class="fragment" style="padding: 1em">Learning automata from demonstrations
+                          <span style="opacity: 0.5">(without language)</span>
+                      </li>
+                      <li class="fragment" style="padding: 1em">Learning automata from demonstrations
+                              <span style="opacity: 0.5">(with language)</span>
+                      </li>
+                  <li class="fragment" style="padding: 1em">Teaching Automata via demonstrations</li>
+                  </ol>
+                </section>
+
+                <section data-auto-animate>
+                  <h1>Agenda</h1>
+                  <ol  style="font-size: 1.6em">
+                      <li  style="padding: 1em">Learning automata from demonstrations
+                          <span style="opacity: 0.5">(without language)</span>
+                      </li>
+                      <li style="padding: 1em">Learning automata from demonstrations
+                              <span style="opacity: 0.5">(with language)</span>
+                      </li>
+                  </ol>
+                  <p style="font-size: 2em; color: #fffebe">A key theme will be using
+                  <strong style="color: #fffefe">labeled examples </strong>to
+                  <strong style="color: #fffefe">fuse information</strong> across
+                  <strong style="color: #fffefe">modalities</strong>.</p>
+                </section>
+
                 <section class="motivating-question">
                     <h1>
                         Consider an agent acting in the following
@@ -361,7 +173,7 @@
                         Communication through actions
                     </h1>
                     <figure data-id="1" style="opacity: 1">
-                        <img data-id="2" style="height: 10em" class='cartoon' src='imgs/episodic_learning2.svg'>
+                        <img data-id="2" style="height: 9em" class='cartoon' src='imgs/episodic_learning2.svg'>
                     </figure>
 
                    <ol style="font-size: 1.1em; margin-top: 1em;" >
@@ -389,11 +201,11 @@
 
 
                <section class="communication" data-auto-animate>
-                    <h1 style="opacity: ">
+                    <h1 style="opacity: 0.3">
                         Communication through actions
                     </h1>
                     <figure data-id="1" style="opacity: 1">
-                        <img data-id="2" style="height: 10em" class='cartoon' src='imgs/episodic_teaching2.svg'>
+                        <img data-id="2" style="height: 9em" class='cartoon' src='imgs/episodic_teaching2.svg'>
                     </figure>
 
                    <ol style="font-size: 1.1em; margin-top: 1em;" >
@@ -437,6 +249,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                 </section>
 
 
+
                 <section class="communication">
 
                     <h1>How should we represent learned tasks?</h1>
@@ -445,17 +258,17 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                     </figure>
 
 
-                   <div style=" color: white; border: 1px solid white; padding: 1em;margin-top: 2em;width: 25em;">
-                    <h2 style="text-decoration: underline">
+                   <div style=" color: white; border: 1px solid white; padding: 1em;margin-top: 0.5em;width: 25em;">
+                    <h2 style="text-decoration: underline; font-size: 0.7em; opacity: 0.8; padding: 0; margin: 0;">
                    Desired Properties
                     </h2>
  
-                     <ol style="font-size: 1.1em; opacity: 1; ">
+                     <ol style="font-size: 1.1em; opacity: 1; " class="with_fade">
 
-                         <li class="fragment" style="margin-top: 0.4em; ">Decouple task from dynamics.
-                             <ul>
-                                 <li  class="fragment" style="margin-top: 0.1em; ">Prefer sparse rewards.</li>
-                                 <li  class="fragment" style="margin-top: 0.1em; ">Support describing temporal tasks.
+                         <li style="margin-top: 0.4em; ">Decouple task from dynamics.
+                             <ul class="fragment">
+                                 <li style="margin-top: 0.1em; ">Prefer sparse rewards.</li>
+                                 <li style="margin-top: 0.1em; ">Support describing temporal tasks.
                                      <br>
                                      <cite style="opacity: 1; font-size: 0.5em; color: white">
                                          Abel, et al. "On the Expressivity of Markov Reward.",
@@ -596,10 +409,6 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                 <section class="communication">
 
                     <h1>Specifications have our desired properties</h1>
-                    <figure data-id="1" style="opacity: 1">
-                        <img data-id="2" style="height: 10em" class='cartoon' src='imgs/episodic_learning3.svg'>
-                    </figure>
-
 
                    <div style=" color: white; border: 1px solid white; padding: 1em;margin-top: 2em;width: 25em;">
                     <h2 style="text-decoration: underline">
@@ -634,17 +443,11 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                         <div style="opacity: 0.1">
                             <h2 data-id="3">Teaching tasks using demonstrations</h2>
                         </div>
-
+                        <div style="opacity: 0.1">
+                            <h2 data-id="3">Learning tasks from demonstrations + language</h2>
+                        </div>
                         <div style="opacity: 1">
                             <h2 data-id="3">Learning tasks from demonstrations</h2>
-                        </div>
-                        <div style="opacity: 0.1">
-                            <h2 data-id="2"> Maximum Entropy Planning </h2>
-                        </div>
-                        <div style="opacity: 0.1">
-                            <h2 style="text-align: center" data-id="0">
-                                Dynamics and Tasks
-                            </h2>
                         </div>
                     </div>
 
@@ -658,7 +461,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                         <br> 
 
                         <cite style="opacity: 0.7; font-size: 0.85em; color: #e5acff">
-                            "Demonstration Informed Specification Search." In submission.
+                            "Demonstration Informed Specification Search." PhD Thesis
                         </cite>
                     </footer>
               </section>
@@ -680,8 +483,6 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                          <h1 style="padding-bottom: 2em; opacity: 0">place holder</h1>
                          <img style="height: 21em;" src="imgs/inference_recipe_2.svg"/>
                 </section>
-
-
 
 
 
@@ -902,7 +703,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                         </figcaption>
                     </figure>
   
-                    <ol style="margin-top: 2em">
+                    <ol class="with_fade" style="margin-top: 2em">
                         <li class="fragment" style="padding: 0.4em">Conflates inductive bias with search efficiency.</li>
                         <li class="fragment" style="padding: 0.4em">When teaching even harder to justify.</li>
                         <li class="fragment" style="padding: 0.4em">Want generic strategy that works with less structured concept classes.</li>
@@ -941,7 +742,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                              src="imgs/enter_lava_augmented_6.svg"/>
 
                     </div>
-                    <img class="fragment" style="height: 13em;" src="imgs/diss_overview3.svg"/>
+                    <img class="fragment" style="height: 11em;" src="imgs/diss_overview3.svg"/>
                 </section>
 
 
@@ -959,7 +760,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                              src="imgs/enter_lava_augmented_6.svg"/>
 
                     </div>
-                    <img style="height: 13em;" src="imgs/diss_2.svg"/>
+                    <img style="height: 11em;" src="imgs/diss_2.svg"/>
                 </section>
 
 
@@ -1288,15 +1089,15 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
 
                         <section class="fancyp" >
                             <h1>Surprise Guided Sampler</h1>
-                            <ol>
-                                <li style="padding: 0.3em;" >Fix a candidate spec and compute proxy gradient.</li>
-                                <li style="padding: 0.3em;" >Define the pivot distribution,  $D$ = softmax $\left (\frac{|\nabla \widehat{h}|}{\beta}\right)$.</li>
-                                <li style="padding: 0.3em;" >Sample a pivot, $k \sim D$ and a path, $\xi$, using the $\pi_\varphi$ such that:
+                            <ol class="with_fade">
+                                <li class="fragment" style="padding: 0.3em;" >Fix a candidate spec and compute proxy gradient.</li>
+                                <li class="fragment" style="padding: 0.3em;" >Define the pivot distribution,  $D$ = softmax $\left (\frac{|\nabla \widehat{h}|}{\beta}\right)$.</li>
+                                <li class="fragment" style="padding: 0.3em;" >Sample a pivot, $k \sim D$ and a path, $\xi$, using the $\pi_\varphi$ such that:
                                     <ol>
                                         <li>$\xi$ pivots at $k$.
                                             <li> $\nabla_k \widehat{h} > 0 \iff \xi \in \varphi$.</li>
                                     </ol>
-                                    <li >New label given by $\nabla_k \widehat{h} < 0$.</li>
+                                <li class="fragment">New label given by $\nabla_k \widehat{h} < 0$.</li>
                             </ol>
 
  
@@ -1307,15 +1108,16 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
  
                         <section>
                             <h1>Candidate sampler can be any exact learner</h1>
-                            <img style="height: 20em;" src="imgs/diss_overview3_2.svg"/>
+                            <img style="height: 18em;" src="imgs/diss_overview3_2.svg"/>
 
                             <footer style="opacity: 0.7; font-size: 0.85em;" >
 
-                                <ul>
+                                <ul class="with_fade">
                                     <li class="fragment"><strong>DFAs:</strong> Heule, Marijn JH, and Sicco Verwer. "Exact DFA identification using SAT solvers."  2010.</li>
                             <li class="fragment">
                                 <strong>LTL:</strong> Neider, Daniel, and Ivan Gavran. "Learning linear temporal properties." 2018.
                             </li>
+                            <li class="fragment">L$^*$LM: (coming up) -- Using LLMs to guide search</li>
                                 </ul>
                             </footer>
                         </section>
@@ -1395,6 +1197,136 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
 
                         </section>
 
+               <section data-auto-animate class="structure-of-talk">
+                    <h1>Research Stack</h1>
+
+                    <div>
+                        <div style="opacity: 0.1">
+                            <h2 data-id="3">Teaching tasks using demonstrations</h2>
+                        </div>
+                        <div style="opacity: 0.1">
+                            <h2 data-id="3">Learning tasks from demonstrations + language</h2>
+                        </div>
+                        <div style="opacity: 1">
+                            <h2 data-id="3">Learning tasks from demonstrations</h2>
+                        </div>
+                    </div>
+
+                    <img style="height: 7em;" src="imgs/episodic_learning4.svg"/>
+
+                    <footer style="font-size: 0.7em; text-align: left">
+                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
+                            "Learning Task Specifications from
+                            Demonstrations." NeurIPS `18. 
+                        </cite>
+                        <br> 
+
+                        <cite style="opacity: 0.7; font-size: 0.85em; color: #e5acff">
+                            "Demonstration Informed Specification Search." PhD Thesis
+                        </cite>
+                    </footer>
+              </section>
+
+                <section data-auto-animate class="structure-of-talk">
+                    <h1>Research Stack</h1>
+                    <div>
+                    <div style="opacity: 0.2">
+                        <h2 data-id="3">Teaching tasks using demonstrations</h2>
+                    </div>
+                    <div style="opacity: 1">
+                      <h2 data-id="3">Learning tasks from demonstrations + language</h2>
+                            <img style="height: 5em; " src="imgs/episodic_communication_4.svg" />
+                    </div>
+                    <div style="opacity: 0.4">
+                        <h2 data-id="3">Learning tasks from demonstrations</h2>
+                    </div>
+
+                    <footer style="font-size: 0.7em; text-align: left">
+                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
+                        $L^*LM$: Learning Automata from Examples using Natural Language Oracles.
+                        </br>
+                        Vazquez-Chanlatte, Karim Elmaaroufi, Stefan Witwicki, Matei Zaharia, Sanjit A. Seshia
+                        </cite>
+                    </footer>
+              </section>
+
+              <section data-auto-animate>
+                 <p data-fragment-index=1 style="font-size:1.3em; padding-top: 3em">
+                   How can we <strong style="color: #b48bd7">translate</strong>
+                   informal requests into <strong style="color: #b48bd7">machine checkable</strong>
+                   objectives?
+                 </p>
+              </section>
+
+              <section data-auto-animate data-background-image="imgs/koolaid.png">
+              </section>
+
+              <section data-auto-animate>
+                 <p data-fragment-index=1 style="font-size:1.3em; padding-top: 2em">
+                   How can we <strong style="color: #b48bd7">translate</strong>
+                   informal requests into <strong style="color: #b48bd7">machine checkable</strong>
+                   objectives?
+                 </p>
+                 <div class="with_fade">
+                 <p class="fragment" style="font-size:1.3em; padding-top: 3em">
+                 <strong>Key idea:</strong> 
+                        </br>Use LLM as a membership oracle.
+                 </p>
+                 <p class="fragment" style="font-size:1.3em">
+                 $\Rightarrow$ Ask LLM yes/no/unsure questions.
+                 </p>
+                 <p class="fragment" style="font-size: 1.3em; margin-top: 1em;">
+                 <strong>Key idea 2:</strong>
+                 </br>
+                 Communicate between modalities with labeled examples<span style="opacity: 0.7"></br>(e.g., language and demonstrations)</span>.
+                 </p>
+                 </div>
+
+              </section>
+
+
+              <section data-auto-animate>
+                 <p data-fragment-index=1>
+                   How can we <strong style="color: #b48bd7">translate</strong>
+                   informal requests into <strong style="color: #b48bd7">machine checkable</strong>
+                   objectives?
+                 </p>
+
+                <p><a href="https://lstar-lm.github.io">lstar-lm.github.io</a></p>
+                <iframe id="inlineFrameExample"
+                        title="Inline Frame Example"
+                        style="height: 100em; width: 100%;"
+                        src="https://lstar-lm.github.io/">
+                </iframe>
+               </section>
+               <section>
+                 <img style="height: 25em" src="https://lstar-lm.github.io/assets/algorithm_overview.svg"/>
+               </section>
+               <section>
+                 <h1 style="font-size:0.8">Example Prompt</h1>
+                <div class="with_fade" style="background: #80808033; padding:1em; width: 30em">
+                       <p >
+                       <span class="fragment">A robot is operating in a grid world and can visit four types of tiles: red, yellow, blue, green.</span>
+                       <span class="fragment">They correspond to lava (red), recharging (yellow), water (blue), and drying (green) tiles.</span>
+                       <span class="fragment">The robot is to visit tiles according to some set of rules. This will be recorded as a sequence of colors.                         </span>
+                       <p class="fragment">Rules Include:</p>
+                       <ol>
+                               <li class="fragment">The sequence must contain at least one yellow tile, i.e., eventually recharge.</li>
+                               <li class="fragment">The sequence must not contain any red tiles, i.e., lava must be avoided at all costs.</li>
+                                       <li class="fragment"> A positive example must conform to all rules.</li>
+                       </ol>
+                       <p class="fragment">Is the following sequence a positive or negative example? [EXAMPLE]</p><p class="fragment">Please respond as yes / no / or unsure</p>
+                </div>
+
+               </section>
+               <section>
+                  <img style="height: 22em" src="imgs/lstar_lm.png"/>
+               </section>
+               <section>
+                <p>Using a single demonstration + SAT based passive learner</p>
+                <img src="https://arxiv.org/html/2402.07051v1/x1.png"/>
+               </section>
+
                 <section data-auto-animate class="structure-of-talk">
                     <h1>Research Stack</h1>
                     <div>
@@ -1402,18 +1334,11 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                         <h2 data-id="3">Teaching tasks using demonstrations</h2>
                             <img style="height: 5em; " src="imgs/episodic_teaching.svg" />
                     </div>
- 
-                    <div style="opacity: 0.5">
+                    <div style="opacity: 0.4">
+                      <h2 data-id="3">Learning tasks from demonstrations + language</h2>
+                    </div>
+                    <div style="opacity: 0.4">
                         <h2 data-id="3">Learning tasks from demonstrations</h2>
-                    </div>
-                    <div style="opacity: 0.5">
-                        <h2 data-id="2"> Maximum Entropy Planning </h2>
-                    </div>
-                    <div style="opacity: 0.5">
-                        <h2 style="text-align: center" data-id="0">
-                            Dynamics and Tasks
-                        </h2>
-                    </div>
                     </div>
 
                     <footer style="font-size: 0.7em; text-align: left">
@@ -1455,238 +1380,31 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                   </div>
               </section>
 
-                 <section data-auto-animate class="structure-of-talk">
+                <section data-auto-animate class="structure-of-talk">
                     <h1>Research Stack</h1>
-
                     <div>
-                        <div style="opacity: 0.1">
-                            <h2 data-id="3">Teaching tasks using demonstrations</h2>
-                        </div>
-
-                        <div style="opacity: 0.1">
-                            <h2 data-id="3">Learning tasks from demonstrations</h2>
-                        </div>
-                        <div style="margin: 0">
-                            <h2 data-id="2"> Maximum Entropy Planning </h2>
-
-                        </div>
-                   </div>
-                    <div style="display: flex; justify-content: space-evenly; width: 80%; flex-direction: row;">
-                        <img style="height: 10em; margin: 0;" src="imgs/applications_visible.svg"/>
+                    <div style="opacity: 1">
+                        <h2 data-id="3">Teaching tasks using demonstrations</h2>
+                            <img style="height: 5em; " src="imgs/episodic_teaching.svg" />
+                    </div>
+                    <div style="opacity: 0.4">
+                      <h2 data-id="3">Learning tasks from demonstrations + language</h2>
+                    </div>
+                    <div style="opacity: 0.4">
+                        <h2 data-id="3">Learning tasks from demonstrations</h2>
                     </div>
 
-
                     <footer style="font-size: 0.7em; text-align: left">
-
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: yellow">
-                            "A Model Counter's Guide to Probabilistic Systems.". (preprint)
-                        </cite>
-
-                        <br>
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: orange">
-                            "Model Checking Finite-Horizon Markov
-                            Chains with Probabilistic Inference",
-                            CAV `21
-                        </cite>
-
-                        <br> 
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: #70ff70">
-                            "Maximum Causal Entropy
-                            Specification Inference from
-                            Demonstrations." CAV `20
+                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
+                            Joint work with Tom Griffiths, Mark Ho, Ameesh Shah, and Sanjit.
                         </cite>
                         <br>
-                        <cite style="opacity: 0.7; font-size: 0.85em; color: cyan">
-                            "Entropy Guided Control
-                            Improvisation", RSS `21
+                        <cite style="opacity: 0.7; font-size: 0.85em; color: white">
+                            Ho, Mark K., et al. "Showing versus doing: Teaching by demonstration." NeurIPs`16
                         </cite>
                     </footer>
-                </section>
+              </section>
 
-
-
-                <section>
-                  <a style="margin-top: 4em" href="#bdd-recap">Time Check! Click to skip.</a>
-                </section>
-
-                <section data-auto-animate>
-                  <h1>Summary</h1>
-                  <figure data-id="2">
-                    <img style="height: 10em;" src="imgs/overview.svg"/>
-                  </figure>
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  
-                  <p><strong>Idea</strong>: 
-                    Model Markov Decision Process as deterministic
-                    transition system with access to $n_c$ coin flips.
-                  </p>
-                  <figure class="fragment">
-                    <img style="height: 6em;" src="imgs/mdp_circ0.svg">
-                  </figure>
-                  <p data-id="1" class="fragment"><strong>Note:</strong>
-                    Principle of maximum causal entropy + finite horizon together are robust to small dynamics mismatches.
-                  </p>
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  
-                  <p><strong>Next</strong>: Assume \(\#(\text{Actions}) = 2^{n_a} \)
-                  </p>
-                  <figure data-id="1">
-                    <img style="height: 6em;" src="imgs/mdp_circ0.svg">
-                  </figure>
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  
-                  <p><strong>Next</strong>: Assume \(\#(\text{Actions}) = 2^{n_a} \)
-                  </p>
-                  <figure data-id="1">
-                    <img style="height: 6em;" src="imgs/mdp_circ0.svg">
-                  </figure>
-
-                  <div>
-                    \[
-                       \text{Dynamics} : S \times {\{0, 1\}}^{n_a + n_c} \to S
-                    \]
-                  </div>
-
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  
-                  <p>Unrolling <strong>\(\tau\)</strong> steps and composing with specification results in a predicate.
-                  </p>
-                  <figure data-id="1">
-                    <img style="height: 6em;" src="imgs/mdp_circ_unrolled.svg">
-                  </figure>
-
-                  <div data-id="2" class="fragment">
-                    \[
-                       \psi : {\{0, 1\}}^{\tau\cdot (n_a + n_c)} \to \{0, 1\}
-                    \]
-                  </div>
-
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  <div data-id="2">
-                    \[
-                       \psi : {\{0, 1\}}^{\tau\cdot (n_a + n_c)} \to \{0, 1\}
-                    \]
-                  </div>
-                  <p>
-                    <strong>Proposal:</strong> Represent \(\psi\) as a Binary Decision Diagram with bits in causal order.
-                  </p>
-                  <figure class="fragment">
-                    <img style="height: 8em;" src="imgs/bitorder.svg"/>
-                  </figure>
-                </section>
-
-                <section data-auto-animate class="random-bit-model">
-                  <h1>Random Bit Model</h1>
-                  <div data-id="2">
-                    \[
-                    
-                       \psi : {\{0, 1\}}^{\tau\cdot (n_a + n_c)} \to \{0, 1\}
-                    \]
-                  </div>
-                  <p>
-                    <strong>Proposal:</strong> Represent \(\psi\) as a Binary Decision Diagram with bits in causal order.
-                  </p>
-                  <figure>
-                    <img style="height: 13em; margin:0; padding: 0;" src="imgs/bdd_lava.svg"/>
-                  </figure>
-                </section>
-
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Maximum Causal Entropy and BDDs</h1>
-                  <p><strong>Q:</strong> Can Maximum Entropy Causal Policy be computed on causally ordered BDDs?</p>
-                </section>
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Maximum Causal Entropy and BDDs</h1>
-                  <p><strong>Q:</strong> Can Maximum Entropy Causal Policy be computed on causally ordered BDDs?</p>
-                  <p><strong>A:</strong> Yes! Due to: </p>
-                    <ol>
-                      <li>Associativity of <span data-id="3">\(\text{smax}\)</span> and <span data-id="5">\(\mathbb{E}\)</span>.
-                      </li>
-                      <li>
-                        \(\text{smax}(\alpha, \alpha) = \alpha + \ln(2)\)
-                      </li>
-                      <li >
-                        \(\text{E}(\alpha, \alpha) = \alpha\)
-                      </li>
-                    </ol>
-                </section>
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Maximum Causal Entropy and BDDs</h1>
-                    <ol>
-                      <li>Associativity of <span data-id="3">\(\text{smax}\)</span> and <span data-id="5">\(\mathbb{E}\)</span>.
-                      </li>
-                      <li>
-                        \(\text{smax}(\alpha, \alpha) = \alpha + \ln(2)\)
-                      </li>
-                      <li >
-                        \(\text{E}(\alpha, \alpha) = \alpha\)
-                      </li>
-                    </ol>
-                  <figure>
-                    <img style="height: 15em; margin:0; padding: 0;" src="imgs/bdd_lava.svg"/>
-                  </figure>
-                </section>
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Maximum Causal Entropy and BDDs</h1>
-                    <ol>
-                      <li>Associativity of <span data-id="3">\(\text{smax}\)</span> and <span data-id="5">\(\mathbb{E}\)</span>.
-                      </li>
-                      <li>
-                        \(\text{smax}(\alpha, \alpha) = \alpha + \ln(2)\)
-                      </li>
-                      <li >
-                        \(\text{E}(\alpha, \alpha) = \alpha\)
-                      </li>
-                    </ol>
-                  <figure>
-                    <img style="height: 15em; margin:0; padding: 0;" src="imgs/bdd_cgraph.svg"/>
-                  </figure>
-                </section>
-
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Size Bounds</h1>
-                  <p><strong>Q:</strong> How big can these Causal BDDs be?</p>
-                  <div data-id="1" style="flex-direction: column;" class="fragment">
-                    \[
-                    |BDD| \leq \overbrace{\underbrace{\tau}_{\text{horizon}} \cdot  \big( \log(|A|) + \text{#coins} \big)}^{\text{# inputs}} \cdot \big( \underbrace{|S \times S_\varphi \times A|}_{\text{composed automaton}} \cdot 2^{\text{#coins}} \big)
-                    \]
-                  </div>
-                </section>
-
-                <section data-auto-animate class="mce-bdds">
-                  <h1>Size Bounds</h1>
-                  <div data-id="1" style="flex-direction: column;">
-                    \[
-                    |BDD| \leq \overbrace{\underbrace{\tau}_{\text{horizon}} \cdot  \big( \log(|A|) + \text{#coins} \big)}^{\text{# inputs}} \cdot \big( \underbrace{|S \times S_\varphi \times A|}_{\text{composed automaton}} \cdot 2^{\text{#coins}} \big)
-                    \]
-                  </div>
-                  <p style="width: 34em;"><strong>Linear</strong> in horizon!</p>
-                  <p style="width: 34em;" class="fragment"><strong>Note:</strong> Using function composition, can build BDD in polynomial time.</p>
-                </section>
-
-                <section id="bdd-recap" data-auto-animate>
-                  <h1>Summary</h1>
-                  <figure data-id="2">
-                    <img style="height: 10em;" src="imgs/overview.svg"/>
-                  </figure>
-                </section>
-
- 
 
                  <section data-auto-animate >
                     <h1>Talk was biased towards Learning Contributions</h1>
@@ -1732,7 +1450,6 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                                 Marcell Vazquez-Chanlatte, Ameesh Shah,
                                 Gil Lederman, and
                                 Sanjit A. Seshia. "Demonstration Informed Specification Search"
-                                In submission. 
                             </li>
 
                         </ul>
@@ -1757,52 +1474,9 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                             </div>
  
                         </li>
-                        <li class="fragment">Efficient <span style="color: #f4a460">MaxEnt planning</span> in <strong style="color: green">symbolic</strong> Stochastic Games.
-                            <div style="font-size: 0.45em; opacity: 0.7" >
-                                <ul style="list-style: none;">
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, Susmit
-                                        Jha, Ashish Tiwari, Mark K. Ho, and
-                                        Sanjit A. Seshia. "Learning Task
-                                        Specifications from Demonstrations."
-                                        NeurIPS. `18. 
-                                    </li>
-                                <li>
-                                    Marcell Vazquez-Chanlatte, and Sanjit
-                                    A. Seshia. "Maximum Causal Entropy
-                                    Specification Inference from
-                                    Demonstrations." CAV `20
-                                </li>
-                                <li>
-                                    Marcell Vazquez-Chanlatte, Ameesh Shah,
-                                    Gil Lederman, and
-                                    Sanjit A. Seshia. "Demonstration Informed Specification Search"
-                                    In submission. 
-                                </li>
-
-                                </ul>
-                            </div>
-
-
-                            <figure style="display: flex; justify-content: space-evenly; opacity: 0.8;">
-                                <img style="height: 6em" src="imgs/bdd_size_by_horizon.svg"/>
-                                <img style="height: 6em" src="imgs/time_vs_bddsize.svg"/>
-                                <img style="height: 6em" src="imgs/applications_visible.svg"/>
-                            </figure>
-                        </li>
-                        <li class="fragment">Exact Probablistic Model Checking of Finite Markov Chains
-                            <div style="font-size: 0.45em; opacity: 0.7" >
-                                <ul style="list-style: none;">
-                                    <li>
-                                        Sebastian Junges, Steven Holtzen,
-                                        Marcell Vazquez-Chanlatte, Todd
-                                        Millstein, Guy Van den Broerk, Sanjit
-                                        A. Seshia. "Model Checking
-                                        Finite-Horizon Markov Chains with
-                                        Probabilistic Inference", CAV `21
-                                    </li>
-                                </ul>
-                            </div>
+                        <li class="fragment">Support partial natural language descriptions
+                        </br>
+                        <img style="height: 5em;" src="https://lstar-lm.github.io/assets/logo.svg"/>
                         </li>
  
                     </ol>
@@ -1812,10 +1486,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
 
 
                         <section>
-                            <h1>By no means solved</h1>
-                            <img data-id="3"
-                                 style="height: 22em;"
-                                 src="imgs/intent_inference_apps.svg"/>
+                            <h1 style="font-size: 2em">What's next?</h1>
                         </section>
                         <section>
                             <h1>Clear path to scaling up</h1>
@@ -1823,12 +1494,12 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                                 <img style="height: 10em;" src="imgs/single_demo11.svg"/>
                             </figure>
 
-                            <ol style="font-size: 1.3em; margin-top: 1em;">
+                            <ol class="with_fade" style="font-size: 1.6em; margin-top: 1em;">
                                 <li class="fragment">Need estimate of policy on prefix tree.</li>
                                 <li class="fragment">Need a way to sample likely paths from policy.</li>
                             </ol>
                         </section>
-                        <section>
+                        <section data-auto-animate>
                             <h1>Plays nicely with approximate methods</h1>
                             <figure data-id="2" style="border: solid; margin: 1em;">
                                 <img style="height: 5em;" src="imgs/prob_deviate.svg"/>
@@ -1838,7 +1509,6 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                                 <li style="margin-top: 0.3em" >Monte Carlo Tree Search <span style="font-size: 0.8em; opacity: 0.8">(e.g., Smooth Cruiser [1])</span></li>
                                 <li style="margin-top: 0.3em" >Function Approximation <span style="font-size: 0.8em; opacity: 0.8">(e.g., Soft Actor Critic [2])</span></li>
                             </ol>
-                            <p style="padding: 3em" class="fragment">Promising preliminary results using Graph Neural Networks</p>
                             <footer style="opacity: 0.7; font-size: 0.6em; margin-top: 8em;">
                                 <cite>[1] Grill, et al. "Planning in entropy-regularized Markov decision processes and games." NeurIPs`19.</cite>
                                     </br>
@@ -1847,22 +1517,17 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                                     </cite>
                             </footer>
                         </section>
-                        <section>
-                            <h1>Works with any supervised learner</h1>
-                            <img style="height: 20em;" src="imgs/diss_overview3_2.svg"/>
-                            <p>Can in principle do Decision Trees and Symbolic Automata.</p>
-                        </section>
-                        <section>
-                            <h1>Works with any supervised learner</h1>
-                            <img style="height: 20em;" src="imgs/diss_overview3_2.svg"/>
-                            <p>Could use natural language or other signals for priors.</p>
-                        </section>
-                        <section>
-                            <h1>Working on variant for constraints</h1>
-                            <img style="height: 20em;" src="imgs/diss_overview3_1.svg"/>
-                            <p>Fix the reward and infer constraints on behavior.</p>
-                        </section>
+                               <section data-auto-animate>
 
+                            <h1>Plays nicely with approximate methods</h1>
+
+                <p><a href="https://rad-embeddings.github.io">rad-embeddings.github.io</a></p>
+                <iframe id="inlineFrameExample"
+                        title="Inline Frame Example"
+                        style="height: 100em; width: 100%;"
+                        src="https://rad-embeddings.github.io/">
+                </iframe>
+               </section>
                        <section>
                             <h1>Multi-agent (inferred) assume guarantee reasoning underexplored</h1>
                             <p style="font-size: 1.3em">\[ A \implies G\]</p>
@@ -1874,81 +1539,28 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                             <cite style="opacity: 0.7; font-size: 0.7em">Ziebart, et al., "Maximum causal entropy correlated equilibria for Markov games." AAAI `10.</cite>
                             </p>
                         </section>
-                        <section
-                         >
-                            <h1>Thank you</h1>
-                            <figure>
-                            <img style="height: 20em" src="imgs/acks.png"/>
-                            <figcaption>Committee, Mentors, and Co-Authors (code and papers)</figcaption>
-                            </figure>
-                        </section>
+                <section class="title" id="title" data-auto-animate>
+                    <h1 style="color: #969696">
+                        <span style="color: #ff8b8b">Learning</span>
+                        and
+                        <span style="color: #ff8b8b">Teaching</span> 
+                        <span style="color: white">Automata</span>
+                    </br>via
+                    <span style="color: #afafff">Demonstrations</span>
+                    and
+                    <span style="color: #afafff">Natural Language</span>
+                    </h1>
+                    <figure style="opacity: 1" data-id="1">
+                        <img data-id="2" style="height: 10em; padding: 1em" src='imgs/episodic_communication_3.svg'>
+                    </figure>
 
-                        <section >
-                            <h1>Thank you</h1>
-                            <figure>
-                            <img style="height: 20em" src="imgs/acks2.png"/>
-                            <figcaption>Friends and Family</figcaption>
-                            </figure>
-                        </section>
+                    <h3 style="font-size: 0.8em; opacity: 0.95">Marcell Vazquez-Chanlatte</h3>
 
-                        <section>
+                    <p href="https://mjvc.me/simons-may-2025"><a>mjvc.me/simons-may-2025</a></p>
 
-                            <h3 style="opacity: 0.95">Thank you</h3>
-
-                            <figure style="opacity: 0.7" data-id="1">
-                                <img data-id="2" style="height: 10em;" src='imgs/episodic_communication.svg'>
-                            </figure>
+                </section>
 
 
-                            <p style="font-size">Slides: <a href="https://mjvc.me/phd">mjvc.me/phd</a></p>
-
-
-                            <footer style="margin-top: 8em; font-size: 0.5em; opacity: 0.6" >
-                                <h6>A learning biased discussion of the following work</h6>
-                                <ul>
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, Susmit
-                                        Jha, Ashish Tiwari, Mark K. Ho, and
-                                        Sanjit A. Seshia. "Learning Task
-                                        Specifications from Demonstrations."
-                                        NeurIPS. `18. 
-                                    </li>
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, and Sanjit
-                                        A. Seshia. "Maximum Causal Entropy
-                                        Specification Inference from
-                                        Demonstrations." CAV `20
-                                    </li>
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, Markus
-                                        N. Rabe, and Sanjit A. Seshia. "A
-                                        Model Counter's Guide to Probabilistic
-                                        Systems.". `19
-                                    </li>
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, Sebastian Junges,
-                                        Daniel J. Fremont, Sanjit
-                                        A. Seshia. "Entropy Guided Control
-                                        Improvisation", RSS `21
-                                    </li>
-                                    <li>
-                                        Sebastian Junges, Steven Holtzen,
-                                        Marcell Vazquez-Chanlatte, Todd
-                                        Millstein, Guy Van den Broerk, Sanjit
-                                        A. Seshia. "Model Checking
-                                        Finite-Horizon Markov Chains with
-                                        Probabilistic Inference", CAV `21
-                                    </li>
-                                    <li>
-                                        Marcell Vazquez-Chanlatte, Ameesh Shah,
-                                        Gil Lederman, and
-                                        Sanjit A. Seshia. "Demonstration Informed Specification Search"
-                                        In submission. 
-                                    </li>
-
-                                </ul>
-                            </footer>
-                        </section>
 
                                 </div>
                             </div>
@@ -1963,7 +1575,7 @@ Ho, et al, "Showing versus doing: Teaching by demonstration". NIPS `16
                                 // - https://revealjs.com/initialization/
                                 // - https://revealjs.com/config/
                                 Reveal.initialize({
-                                        allottedTime: 55 * 60 * 1000, // 3 minutes
+                                        allottedTime: 45 * 60 * 1000,
                                         hash: true,
                                         width: 1920,
                                         height: 1080,
